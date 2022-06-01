@@ -3,14 +3,14 @@ loaderVersion="[36,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="jagh"
+modId="dirtycraft"
 version="1.0.0"
-displayName="JAGH"
+displayName="dirtycraft"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="HARXINE, MCreator"
 
-[[dependencies.jagh]]
+[[dependencies.dirtycraft]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5]"

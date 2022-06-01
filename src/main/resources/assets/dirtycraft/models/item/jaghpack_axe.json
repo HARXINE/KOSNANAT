@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "jagh:items/jaghpack_hoe"
+    "layer0": "dirtycraft:items/jaghpack_axe"
   }
 }

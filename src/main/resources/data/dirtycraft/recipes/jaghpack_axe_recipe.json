@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    " 4 ",
-    " 7 "
+    "01",
+    "23",
+    " 5"
   ],
   "key": {
     "0": {
@@ -15,15 +15,15 @@
     "2": {
       "item": "minecraft:smooth_quartz_stairs"
     },
-    "4": {
+    "3": {
       "item": "minecraft:stick"
     },
-    "7": {
+    "5": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "jagh:jaghpack_pickaxe",
+    "item": "dirtycraft:jaghpack_axe",
     "count": 1
   }
 }

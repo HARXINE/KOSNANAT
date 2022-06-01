@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "jagh:items/jaghpack_pickaxe"
+    "layer0": "dirtycraft:items/jaghpack_sword"
   }
 }

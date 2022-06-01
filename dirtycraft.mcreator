@@ -86,9 +86,14 @@
   "language_map": {
     "en_us": {
       "item.jagh.jaghpack_shovel": "JAGHPACK Shovel",
+      "item.dirtycraft.jaghpack_pickaxe": "JAGHPACK Pickaxe",
+      "item.dirtycraft.jaghpack_sword": "JAGHPACK Sword",
       "item.jagh.jaghpack_axe": "JAGHPACK Axe",
       "item.jagh.jaghpack_hoe": "JAGHPACK Hoe",
+      "item.dirtycraft.jaghpack_axe": "JAGHPACK Axe",
+      "item.dirtycraft.jaghpack_hoe": "JAGHPACK Hoe",
       "item.jagh.jaghpack_sword": "JAGHPACK Sword",
+      "item.dirtycraft.jaghpack_shovel": "JAGHPACK Shovel",
       "item.jagh.jaghpack_pickaxe": "JAGHPACK Pickaxe"
     }
   },
@@ -97,8 +102,8 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "jagh",
-    "modName": "JAGH",
+    "modid": "dirtycraft",
+    "modName": "dirtycraft",
     "version": "1.0.0",
     "author": "HARXINE, MCreator",
     "websiteURL": "https://mcreator.net",
@@ -110,7 +115,8 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
-    "modElementsPackage": "net.mcreator.jagh",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.dirtycraft",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202200120510

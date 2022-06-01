@@ -1,30 +1,30 @@
 
-package net.mcreator.jagh.item;
+package net.mcreator.dirtycraft.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
+import net.minecraft.item.AxeItem;
 import net.minecraft.block.Blocks;
 
-import net.mcreator.jagh.JaghModElements;
+import net.mcreator.dirtycraft.DirtycraftModElements;
 
-@JaghModElements.ModElement.Tag
-public class JAGHPACKPickaxeItem extends JaghModElements.ModElement {
-	@ObjectHolder("jagh:jaghpack_pickaxe")
+@DirtycraftModElements.ModElement.Tag
+public class JAGHPACKAxeItem extends DirtycraftModElements.ModElement {
+	@ObjectHolder("dirtycraft:jaghpack_axe")
 	public static final Item block = null;
 
-	public JAGHPACKPickaxeItem(JaghModElements instance) {
-		super(instance, 1);
+	public JAGHPACKAxeItem(DirtycraftModElements instance) {
+		super(instance, 2);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new PickaxeItem(new IItemTier() {
+		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
 				return 250;
 			}
@@ -49,6 +49,6 @@ public class JAGHPACKPickaxeItem extends JaghModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(Blocks.SMOOTH_QUARTZ_STAIRS));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-		}.setRegistryName("jaghpack_pickaxe"));
+		}.setRegistryName("jaghpack_axe"));
 	}
 }

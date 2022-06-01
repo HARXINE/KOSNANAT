@@ -1,5 +1,5 @@
 
-package net.mcreator.jagh.item;
+package net.mcreator.dirtycraft.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
@@ -8,23 +8,23 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
-import net.minecraft.item.AxeItem;
+import net.minecraft.item.HoeItem;
 import net.minecraft.block.Blocks;
 
-import net.mcreator.jagh.JaghModElements;
+import net.mcreator.dirtycraft.DirtycraftModElements;
 
-@JaghModElements.ModElement.Tag
-public class JAGHPACKAxeItem extends JaghModElements.ModElement {
-	@ObjectHolder("jagh:jaghpack_axe")
+@DirtycraftModElements.ModElement.Tag
+public class JAGHPACKHoeItem extends DirtycraftModElements.ModElement {
+	@ObjectHolder("dirtycraft:jaghpack_hoe")
 	public static final Item block = null;
 
-	public JAGHPACKAxeItem(JaghModElements instance) {
-		super(instance, 2);
+	public JAGHPACKHoeItem(DirtycraftModElements instance) {
+		super(instance, 5);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new AxeItem(new IItemTier() {
+		elements.items.add(() -> new HoeItem(new IItemTier() {
 			public int getMaxUses() {
 				return 250;
 			}
@@ -48,7 +48,7 @@ public class JAGHPACKAxeItem extends JaghModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(Blocks.SMOOTH_QUARTZ_STAIRS));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-		}.setRegistryName("jaghpack_axe"));
+		}, 0, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}.setRegistryName("jaghpack_hoe"));
 	}
 }
