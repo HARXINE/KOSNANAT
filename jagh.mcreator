@@ -1,0 +1,117 @@
+{
+  "mod_elements": [
+    {
+      "name": "JAGHPACKPickaxe",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaghpack_pickaxe"
+    },
+    {
+      "name": "JAGHPACKAxe",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaghpack_axe"
+    },
+    {
+      "name": "JAGHPACKSword",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaghpack_sword"
+    },
+    {
+      "name": "JAGHPACKShovel",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaghpack_shovel"
+    },
+    {
+      "name": "JAGHPACKHoe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaghpack_hoe"
+    },
+    {
+      "name": "JAGHPACKPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaghpack_pickaxe_recipe"
+    },
+    {
+      "name": "JAGHPACKAxeRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaghpack_axe_recipe"
+    },
+    {
+      "name": "JAGHPACKSwordRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaghpack_sword_recipe"
+    },
+    {
+      "name": "JAGHPACKShovelRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaghpack_shovel_recipe"
+    },
+    {
+      "name": "JAGHPACKHoeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaghpack_hoe_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.jagh.jaghpack_shovel": "JAGHPACK Shovel",
+      "item.jagh.jaghpack_axe": "JAGHPACK Axe",
+      "item.jagh.jaghpack_hoe": "JAGHPACK Hoe",
+      "item.jagh.jaghpack_sword": "JAGHPACK Sword",
+      "item.jagh.jaghpack_pickaxe": "JAGHPACK Pickaxe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "jagh",
+    "modName": "JAGH",
+    "version": "1.0.0",
+    "author": "HARXINE, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.jagh",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
